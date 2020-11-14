@@ -18,7 +18,7 @@ public class Player {
         int[] stats = new int[2];
         int health = 0, damage = 0;
 
-        System.out.println("Enter your character health modifier (1 - 9: ");
+        System.out.println("Enter your character health modifier (1 - 9): ");
         health = sc.nextInt() * 4;
 
         System.out.println("Enter your character Damage modifier (1 - 9): ");
